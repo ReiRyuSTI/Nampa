@@ -6,13 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        top nologin
-    </div>
+    <main class="flex flex-col items-center gap-9">
+        <!-- no login top -->
+        <div class="flex flex-col justify-center items-center md:gap-4 pt-10">
+            <figure class="w-44 h-auto">
+                <img src="nampa_image/top_1.png" alt="" class="object-contain">
+            </figure>
+            <div class="text-3xl md:text-4xl">NANPA</div>
+        </div>
+        <!-- no login card -->
+        <div class="flex flex-col justify-center items-center gap-2 md:flex-row md:gap-x-8 md:max-w-3xl max-w-lg ">
+            <figure class="w-44 h-auto md:w-1/2">
+                <img src="nampa_image/top_2.png" alt="" class="object-contain m-auto">
+            </figure>
+            <div class="w-3/4 flex flex-col md:w-1/2">
+                <div class="text-2xl text-center border-b-2 border-black md:text-left">title</div>
+                <div class="text-xl break-all">
+                    contentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontent
+                </div>
+            </div>
+        </div>
+        <!-- no login card reverse -->
+        <div
+            class="flex flex-col justify-center items-center gap-2 md:flex-row-reverse md:gap-x-8 md:max-w-3xl max-w-lg">
+            <figure class="w-44 h-auto md:w-1/2">
+                <img src="nampa_image/top_3.png" alt="" class="object-contain m-auto">
+            </figure>
+            <div class="w-3/4 flex flex-col md:w-1/2">
+                <div class="text-2xl text-center border-b-2 border-black md:text-left">title</div>
+                <div class="text-xl break-all">
+                    contentcontentcontentcontentcontentcontent
+                    contentcontentcontentcontentcontentcontent
+                    contentcontentcontentcontentcontentcontent
+                    contentcontentcontentcontentcontentcontent
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-10">
+            <button class="flex items-center gap-3 p-2 border-2 border-sky-500 rounded-md">
+                <span class="text-xl font-bold">google login</span>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 48 48" class="w-12 h-12 m-0 p-0">
+                        <defs>
+                            <path id="a"
+                                d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" />
+                        </defs>
+                        <clipPath id="b">
+                            <use xlink:href="#a" overflow="visible" />
+                        </clipPath>
+                        <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
+                        <path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z" />
+                        <path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z" />
+                        <path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z" />
+                    </svg>
+                </div>
+            </button>
+        </div>
+    </main>
 </body>
 
 </html>
