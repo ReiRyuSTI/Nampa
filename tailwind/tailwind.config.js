@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}","./public/**/*.html"],
+  content: ["./src/**/*.{html,js}", "./public/**/*.html"],
   theme: {
     extend: {
-      fontFamily:{
-        main:["Kosugi"]
-      }
+      fontFamily: {
+        main: ["Kosugi"],
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [require("tailwind-scrollbar-hide")],
+};

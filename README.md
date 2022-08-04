@@ -21,3 +21,7 @@
 | イベント閲覧         | /events/:event_id      | true |
 | イベント作成         | /events/create         | true |
 | イベント編集         | /events/:event_id/edit | true |
+
+### tailwind scroll bar hide
+
+[参考サイト](https://www.npmjs.com/package/tailwind-scrollbar-hide)
